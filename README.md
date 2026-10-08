@@ -34,3 +34,12 @@ Use the "Acting as" toggle (top right of the meta strip) to switch between the t
 ## Why it looks like this
 
 See the **Migration Plan** tab inside the prototype itself — it explains what's a straight reuse of existing Leadverse components (e.g. the Assign-DA modal is Leadverse's existing `ManualAssignmentModal` pattern), what's an extension, and what's genuinely new.
+
+## Theme
+
+The console opens in the white theme, which is what Leadverse uses. The Light / Dark button in the header switches the theme for your browser and remembers the choice (`theme.js`). The OS dark mode never switches it.
+
+## Related
+
+- [PISTON](https://github.com/kishor1-hue/piston-leadverse-proto): the ideal test drive journey, step by step, in the Leadverse TD Journey design, with source, screen, entry and exit for every step and each screen's anatomy.
+- History up to this split lives in [da-panel-leadverse-proto](https://github.com/kishor1-hue/da-panel-leadverse-proto).
